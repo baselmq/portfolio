@@ -15,27 +15,44 @@
     <!-- -----------*** Header ***----------- -->
 
     <header>
-      <div class="logo">
-        <a href="../index.html"> <img src="../assets/logo/logo.svg" alt="" /></a>
-      </div>
-      <nav>
-        <li><a href="../index.html">home</a></li>
-        <li><a href="projects.html">projects</a></li>
-        <li><a href="../index.html#skills">skills</a></li>
-        <li><a href="education.html">education</a></li>
-        <li><a href="../index.html#contact-me">contact</a></li>
-        <li>
-          <a
-            href="https://drive.google.com/file/d/1vkfqBmILgl1ku9fiSURak9w1Zt8jN6Ga/view?usp=sharing"
-            target="_blank"
-            >see my resume</a
-          >
-        </li>
+      <nav class="navbar">
+        <a href="../index.html" class="nav-branding">
+          <img src="../assets/logo/logo.svg" alt=""
+        /></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="projects.html" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="../index.html#skills" class="nav-link">skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="education.html" class="nav-link">Education</a>
+          </li>
+          <li class="nav-item flex-space">
+            <a href="../index.html#contact-me" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://drive.google.com/file/d/1vkfqBmILgl1ku9fiSURak9w1Zt8jN6Ga/view?usp=sharing"
+              class="nav-link"
+              target="_blank"
+              >See My Resume</a
+            >
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
-      <div class="menu">
-        <img src="../assets/icon/menu.svg" alt="" />
-      </div>
     </header>
+
+    <!-- -----------*** Main ***----------- -->
     <main>
       <section class="ed">
         <div class="education">
@@ -91,5 +108,6 @@
         <div>@2023 Basel. All right reserved</div>
       </div>
     </footer>
+    <script src="javascript/script.js"></script>
   </body>
 </html>
