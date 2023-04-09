@@ -129,48 +129,9 @@ a {
     background-color: var(--mainColor);
 }
 
-@media (max-width:768px) {
-    .hamburger {
-        display: block;
-    }
+/* @media (max-width:768px) {
 
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-    .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        background-color: var(--FontColorWhite);
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-    }
-
-    .nav-item {
-        margin: 16px 0;
-    }
-
-    .nav-menu.active {
-        left: 0;
-    }
-}
-
-
-
-
-
+} */
 
 
 
@@ -271,13 +232,50 @@ main {
 /* Mobile */
 
 @media (max-width: 767px) {
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: var(--FontColorWhite);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
     header {
         padding: 10px 20px;
     }
 
-    nav {
-        display: none;
-    }
 
     .logo img {
         width: 30px;
@@ -351,10 +349,6 @@ main {
         margin-right: 80px;
     }
 
-    nav {
-        display: none;
-    }
-
     main {
         margin: 0 40px;
     }
@@ -399,6 +393,10 @@ main {
 
     .About-me .buttons div:first-child {
         margin-right: 30px;
+    }
+
+    .navbar {
+        padding: 0;
     }
 }
 
