@@ -235,7 +235,7 @@ main {
         height: 90vw;
     }
 
-    .About-me .buttons div {
+    .About-me .buttons div a {
         margin-top: 0;
         font-size: 15px;
 
@@ -306,7 +306,7 @@ main {
         margin-top: 30px;
     }
 
-    .About-me .buttons div {
+    .About-me .buttons div a {
         font-size: 2vw;
         margin-top: 0;
     }
@@ -517,65 +517,65 @@ main {
 }
 
 .html {
-    background-image: url("/assets/icon/program-lang/html-gray.svg");
+    background-image: url("../assets/icon/program-lang/html-gray.svg");
 }
 
 .html:hover {
-    background-image: url("/assets/icon/program-lang/html.svg");
+    background-image: url("../assets/icon/program-lang/html.svg");
 }
 
 .css {
-    background-image: url("/assets/icon/program-lang/css-gray.svg");
+    background-image: url("../assets/icon/program-lang/css-gray.svg");
 }
 
 .css:hover {
-    background-image: url("/assets/icon/program-lang/css.svg");
+    background-image: url("../assets/icon/program-lang/css.svg");
 }
 
 .javascript {
-    background-image: url("/assets/icon/program-lang/js-gray.svg");
+    background-image: url("../assets/icon/program-lang/js-gray.svg");
 }
 
 .javascript:hover {
-    background-image: url("/assets/icon/program-lang/js.svg");
+    background-image: url("../assets/icon/program-lang/js.svg");
 }
 
 .react-js {
-    background-image: url("/assets/icon/program-lang/react-gray.svg");
+    background-image: url("../assets/icon/program-lang/react-gray.svg");
 }
 
 .react-js:hover {
-    background-image: url("/assets/icon/program-lang/react.svg");
+    background-image: url("../assets/icon/program-lang/react.svg");
 }
 
 .nodejs {
-    background-image: url("/assets/icon/program-lang/node-js-gray.svg");
+    background-image: url("../assets/icon/program-lang/node-js-gray.svg");
 }
 
 .nodejs:hover {
-    background-image: url("/assets/icon/program-lang/node-js.svg");
+    background-image: url("../assets/icon/program-lang/node-js.svg");
 }
 
 .npm {
-    background-image: url("/assets/icon/program-lang/npm-gray.svg");
+    background-image: url("../assets/icon/program-lang/npm-gray.svg");
 }
 
 .npm:hover {
-    background-image: url("/assets/icon/program-lang/npm.svg");
+    background-image: url("../assets/icon/program-lang/npm.svg");
 }
 
 .flutter {
-    background-image: url("/assets/icon/program-lang/flutter-gray.svg");
+    background-image: url("../assets/icon/program-lang/flutter-gray.svg");
 }
 
 .flutter:hover {
-    background-image: url("/assets/icon/program-lang/flutter.svg");
+    background-image: url("../assets/icon/program-lang/flutter.svg");
 }
 
 .dart {
-    background-image: url("/assets/icon/program-lang/dart-gray.svg");
+    background-image: url("../assets/icon/program-lang/dart-gray.svg");
 }
 
 .dart:hover {
-    background-image: url("/assets/icon/program-lang/dart.svg");
+    background-image: url("../assets/icon/program-lang/dart.svg");
 }
