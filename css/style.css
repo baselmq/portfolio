@@ -56,6 +56,7 @@ nav {
     width: 100%;
     margin-left: 5%;
     padding-top: 15px;
+    position: relative;
 
 }
 
@@ -70,6 +71,16 @@ nav>li {
 nav>li>a {
     text-decoration: none;
     color: var(--FontColorBlack);
+}
+
+nav>li:last-child a {
+    background-color: var(--mainColor);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 4.5px;
+    right: 14.5em;
 }
 
 .menu img {
@@ -93,7 +104,7 @@ main {
         "contact contact my-image"
         "buttons buttons my-image";
 
-    margin: 120px 0;
+    margin-top: 120px;
     padding-top: 6vw;
 }
 
@@ -149,11 +160,12 @@ main {
     margin-top: 20px;
 }
 
-.About-me .buttons div {
+.About-me .buttons div a {
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    text-decoration: none;
     padding: 12px;
     width: auto;
     background-color: var(--mainColor);
@@ -336,7 +348,6 @@ main {
 
 /* ----*** Skills ***---- */
 
-
 /* .skills .contact {
     max-width: 50%;
     min-width: 370px;
@@ -397,6 +408,7 @@ main {
     width: 38vw;
     max-width: 700px;
 }
+
 .skills-text {
     margin: 40px 0;
 }
@@ -417,6 +429,7 @@ main {
     left: -25px;
     top: -2px;
 }
+
 /* Mobile */
 @media (max-width: 767px) {
     .title-section {
@@ -439,6 +452,7 @@ main {
     .img-skills img {
         display: none;
     }
+
     .skills-text li {
         font-size: 18px;
 
@@ -450,6 +464,7 @@ main {
 /* Small Screens */
 
 @media (min-width: 768px) and (max-width: 991px) {
+
     /* .title-section {
         font-size: 35px;
     }
@@ -466,6 +481,7 @@ main {
     .img-skills img {
         display: none;
     }
+
     .skills-text li {
         font-size: 18px;
 
@@ -489,12 +505,15 @@ main {
         grid-row: 1/2;
 
     }
-    .skills{
-        margin: 150px 0;
-      }
-      .technical-skills{
+
+    /* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+    .skills {
+        padding: 150px 0;
+    }
+
+    .technical-skills {
         max-width: 660px;
-      }
+    }
 }
 
 .html {
@@ -560,4 +579,3 @@ main {
 .dart:hover {
     background-image: url("/assets/icon/program-lang/dart.svg");
 }
-

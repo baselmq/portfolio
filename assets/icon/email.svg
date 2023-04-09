@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><g data-name="Layer 2"><g data-name="01.mail"><circle cx="256" cy="256" r="256" fill="#ea4335" data-original="#2196f3" class=""></circle><g fill="#fff"><path d="M255.94 268.64 121 201.32v133.76a25.66 25.66 0 0 0 25.59 25.59h218.82A25.66 25.66 0 0 0 391 335.08V202.73z" fill="#ffffff" data-original="#ffffff"></path><path d="M256.06 243.36 391 177.5v-.58a25.66 25.66 0 0 0-25.59-25.59H146.59A25.66 25.66 0 0 0 121 176z" fill="#ffffff" data-original="#ffffff"></path></g></g></g></g></svg>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_6)">
+<path d="M256 512C397.385 512 512 397.385 512 256C512 114.615 397.385 0 256 0C114.615 0 0 114.615 0 256C0 397.385 114.615 512 256 512Z" fill="black"/>
+<path d="M255.94 268.64L121 201.32V335.08C121.018 341.861 123.72 348.359 128.516 353.154C133.311 357.95 139.809 360.652 146.59 360.67H365.41C372.191 360.652 378.689 357.95 383.484 353.154C388.28 348.359 390.982 341.861 391 335.08V202.73L255.94 268.64Z" fill="white"/>
+<path d="M256.06 243.36L391 177.5V176.92C390.982 170.139 388.28 163.641 383.484 158.846C378.689 154.051 372.191 151.348 365.41 151.33H146.59C139.965 151.343 133.601 153.918 128.832 158.517C124.062 163.115 121.256 169.38 121 176L256.06 243.36Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_1_6">
+<rect width="512" height="512" fill="white"/>
+</clipPath>
+</defs>
+</svg>
