@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="assets/logo/logo.svg" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/projects.css" />
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <title>Basel Qarqa</title>
   </head>
@@ -30,10 +30,10 @@
           <li class="nav-item">
             <a href="pages/education.html" class="nav-link">Education</a>
           </li>
-          <li class="nav-item flex-space">
+          <li class="nav-item">
             <a href="#contact-me" class="nav-link">Contact</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item btn-resume btn-resume-mobile">
             <a
               href="https://drive.google.com/file/d/1vkfqBmILgl1ku9fiSURak9w1Zt8jN6Ga/view?usp=sharing"
               class="nav-link"
@@ -42,33 +42,67 @@
             >
           </li>
         </ul>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+        <div class="btn-resume btn-resume-desktop">
+          <a
+            href="https://drive.google.com/file/d/1vkfqBmILgl1ku9fiSURak9w1Zt8jN6Ga/view?usp=sharing"
+            class="nav-link"
+            target="_blank"
+            >See My Resume</a
+          >
+        </div>
+        <div class="btn-resume btn-resume-middle">
+          <a
+            href="https://drive.google.com/file/d/1vkfqBmILgl1ku9fiSURak9w1Zt8jN6Ga/view?usp=sharing"
+            class="nav-link"
+            target="_blank"
+            >My Resume
+          </a>
+        </div>
+        <div class="btn-toggle-desktop"><div id="dark-mode"></div></div>
+        <div class="container-menu">
+          <div class="btn-toggle-mobile"><div id="dark-mode-mobile"></div></div>
+
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
         </div>
       </nav>
     </header>
-    <!-- -----------*** About-me ***----------- -->
+    <!-- -----------*** main ***----------- -->
     <main>
       <section class="About-me">
-        <div class="title">
-          <div>
-            Hi all, I'm Basel
-            <img src="assets/gif/hi.gif" alt="" />
+        <div class="container-content">
+          <div class="title">
+            <span>Hi all, I'm Basel</span>
+            <div class="image-container">
+              <img src="assets/icon/hi.svg" alt="" />
+            </div>
           </div>
-        </div>
-        <div class="contact">
-          A passionate Full Stack Software Developer 🚀 having an experience of
-          building Web and Mobile applications with JavaScript / Reactjs /
-          Nodejs / React Native and some other cool libraries and frameworks.
+          <div class="description">
+            A passionate Full Stack Software Developer 🚀 having an experience
+            of building Web and Mobile applications with JavaScript / Reactjs /
+            Nodejs / React Native and some other cool libraries and frameworks.
+          </div>
+          <div class="btn-about-desktop">
+            <div class="buttons">
+              <a href="#contact-me"> contact me</a>
+              <a
+                href="https://drive.google.com/file/d/1vkfqBmILgl1ku9fiSURak9w1Zt8jN6Ga/view?usp=sharing"
+                target="_blank"
+              >
+                see my resume</a
+              >
+            </div>
+          </div>
         </div>
         <div class="my-image">
           <img src="assets/image/my-photo.jpg" alt="" />
         </div>
-        <div class="buttons">
-          <div><a href="#contact-me"> contact me</a></div>
-          <div>
+        <div class="btn-about-mobile">
+          <div class="buttons">
+            <a href="#contact-me"> contact me</a>
             <a
               href="https://drive.google.com/file/d/1vkfqBmILgl1ku9fiSURak9w1Zt8jN6Ga/view?usp=sharing"
               target="_blank"
@@ -80,195 +114,198 @@
       </section>
 
       <!-- -----------*** Skills ***----------- -->
-      <section class="skills" id="skills">
-        <div class="contact">
-          <div class="title-section">What I do</div>
-          <div class="sub-title">
+      <div id="skills"></div>
+      <section class="skills">
+        <div class="container-skills-left">
+          <!-- <lottie-player
+            src="https://lottie.host/46ca0d5f-e27e-4a4a-9a42-ea80bdd43fd7/Nv5SEHAsCa.json"
+            background="transparent"
+            speed="1"
+            class="lottie-svg"
+            loop
+            autoplay
+          ></lottie-player> -->
+          <lottie-player
+            src="https://lottie.host/9312c288-5c4a-470a-8c68-4f983d9eca56/UDe8SuwObU.json"
+            background="transparent"
+            speed="1"
+            class="lottie-svg"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+        <div class="container-skills-right">
+          <div class="title-skills">What I do</div>
+          <div class="sub-title-skills">
             FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK
           </div>
-          <div class="technical-skills">
-            <ul>
-              <li>
-                <div class="icons html"></div>
-                <p>html</p>
-              </li>
-              <li>
-                <div class="icons css"></div>
-                <p>css</p>
-              </li>
-              <li>
-                <div class="icons javascript"></div>
-                <p>javascript</p>
-              </li>
-              <li>
-                <div class="icons react-js"></div>
-                <p>reactjs</p>
-              </li>
-              <li>
-                <div class="icons nodejs"></div>
-                <p>nodejs</p>
-              </li>
-              <li>
-                <div class="icons npm"></div>
-                <p>npm</p>
-              </li>
-              <li>
-                <div class="icons flutter"></div>
-                <p>flutter</p>
-              </li>
-              <li>
-                <div class="icons dart"></div>
-                <p>dart</p>
-              </li>
-            </ul>
-          </div>
+          <ul class="list-icons-skills">
+            <li class="icons-technical">
+              <i class="fa-brands fa-html5"></i>
+              <p>html</p>
+            </li>
+            <li class="icons-technical">
+              <i class="fa-brands fa-css3-alt"></i>
+              <p>css</p>
+            </li>
+            <li class="icons-technical">
+              <i class="fa-brands fa-square-js"></i>
+              <p>javascript</p>
+            </li>
+            <li class="icons-technical">
+              <i class="fa-brands fa-react"></i>
+              <p>reactjs</p>
+            </li>
+            <li class="icons-technical">
+              <i class="fa-brands fa-node-js"></i>
+              <p>nodejs</p>
+            </li>
+            <li class="icons-technical">
+              <i class="fa-brands fa-npm"></i>
+              <p>npm</p>
+            </li>
+            <li class="image-technical">
+              <img src="assets/icon/mongodb.svg" alt="" />
+              <p>mongodb</p>
+            </li>
+            <li class="image-technical">
+              <img src="assets/icon/flutter.svg" alt="" />
+              <p>flutter</p>
+            </li>
+            <li class="image-technical">
+              <img src="assets/icon/dart.svg" alt="" />
+              <p>dart</p>
+            </li>
+          </ul>
           <div class="skills-text">
-            <li>
-              <p>
-                Develop highly interactive front end/user interfaces for web and
-                mobile applications
-              </p>
-            </li>
+            <p>
+              Develop highly interactive front end/user interfaces for web and
+              mobile applications
+            </p>
 
-            <li>
-              <p>applications Apply the basic concepts of manual testing</p>
-            </li>
+            <p>applications Apply the basic concepts of manual testing</p>
 
-            <li>
-              <p>Good Skills at writing Bug Report and Test Cases</p>
-            </li>
+            <p>Good Skills at writing Bug Report and Test Cases</p>
 
-            <li>
-              <p>Fundamentals of software testing</p>
-            </li>
+            <p>Fundamentals of software testing</p>
           </div>
-        </div>
-        <div class="img-skills">
-          <img src="assets/gif/skills.gif" alt="" />
         </div>
       </section>
       <!-- -----------*** Projects ***----------- -->
       <section class="projects">
-        <div class="title-section">Projects</div>
-        <div class="cards-project">
-          <div class="card">
-            <img src="assets/image/project-1.png" alt="" />
-            <div class="description">
-              <div class="title">Portfolio</div>
-              <div class="sub-title">
-                1 Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry
-              </div>
+        <div class="title-projects">Projects</div>
+        <div class="container-project">
+          <div class="card-project">
+            <figure><img src="assets/image/project-1.png" alt="" /></figure>
+
+            <div class="description-project">
+              <h6>Portfolio</h6>
+              <p>
+                HTML and CSS portfolio demonstrating skills, projects, and
+                contact info, designed by me.
+              </p>
               <div class="links">
                 <div class="live-preview">
                   <img src="assets/icon/link.svg" alt="" />
-                  <div><a href=""> Live Preview</a></div>
+                  <a href=""> Live Preview</a>
                 </div>
                 <div class="github">
                   <img src="assets/icon/github.svg" alt="" />
-                  <div>
-                    <a href="https://github.com/baselmq/portfolio">
-                      View Code</a
-                    >
-                  </div>
+                  <a href="https://github.com/baselmq/portfolio"> View Code</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="card">
-            <img src="assets/image/project-2.png" alt="" />
-            <div class="description">
-              <div class="title">Clone Airbnb</div>
-              <div class="sub-title">
-                2 Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry
-              </div>
+          <div class="card-project">
+            <figure><img src="assets/image/project-2.png" alt="" /></figure>
+            <div class="description-project">
+              <h6>Clone Airbnb</h6>
+              <p>
+                The project is a clone of the airbnb homepage, which I designed
+                using HTML and CSS.
+              </p>
               <div class="links">
                 <div class="live-preview">
                   <img src="assets/icon/link.svg" alt="" />
-                  <div>
-                    <a href="https://baselmq.github.io/clone-airbnb/">
-                      Live Preview</a
-                    >
-                  </div>
+
+                  <a href="https://baselmq.github.io/clone-airbnb/">
+                    Live Preview</a
+                  >
                 </div>
                 <div class="github">
                   <img src="assets/icon/github.svg" alt="" />
-                  <div>
-                    <a href="https://github.com/baselmq/clone-airbnb">
-                      View Code</a
-                    >
-                  </div>
+
+                  <a href="https://github.com/baselmq/clone-airbnb">
+                    View Code</a
+                  >
                 </div>
               </div>
             </div>
           </div>
-          <div class="card">
-            <img src="assets/image/project-3.png" alt="" />
-            <div class="description">
-              <div class="title">Calculator</div>
-              <div class="sub-title">
-                3 Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry
-              </div>
+          <div class="card-project">
+            <figure><img src="assets/image/project-3.png" alt="" /></figure>
+            <div class="description-project">
+              <h6>Calculator</h6>
+              <p>
+                I created a fully functional calculator using HTML and CSS for
+                seamless calculations.
+              </p>
               <div class="links">
                 <div class="live-preview">
                   <img src="assets/icon/link.svg" alt="" />
-                  <div>
-                    <a href="https://baselmq.github.io/calculator-/">
-                      Live Preview</a
-                    >
-                  </div>
+
+                  <a href="https://baselmq.github.io/calculator-/">
+                    Live Preview</a
+                  >
                 </div>
                 <div class="github">
                   <img src="assets/icon/github.svg" alt="" />
-                  <div>
-                    <a href="https://github.com/baselmq/calculator-"
-                      >View Code</a
-                    >
-                  </div>
+
+                  <a href="https://github.com/baselmq/calculator-">View Code</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="card">
-            <img src="assets/image/project-4.png" alt="" />
-            <div class="description">
-              <div class="title">Filmmaking UI/UX</div>
-              <div class="sub-title">
-                4 Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry
-              </div>
+          <div class="card-project">
+            <figure><img src="assets/image/project-4.png" alt="" /></figure>
+            <div class="description-project">
+              <h6>Filmmaking UI/UX</h6>
+              <p>
+                The project is a landing page for a filmmaking academy, which I
+                designed using Figma.
+              </p>
               <div class="links">
                 <div class="live-preview">
                   <img src="assets/icon/link.svg" alt="" />
-                  <div>
-                    <a
-                      href="https://www.figma.com/file/9uRzYNk2eOAWJbeBclziQ9/Filmmaking?node-id=0%3A1&t=d5TbWEZbbhtyuLJd-1"
-                      >Live Preview</a
-                    >
-                  </div>
+
+                  <a
+                    href="https://www.figma.com/proto/9uRzYNk2eOAWJbeBclziQ9/Filmmaking?page-id=0%3A1&node-id=121-1028&viewport=545%2C-530%2C0.11&scaling=min-zoom&starting-point-node-id=121%3A1163"
+                    >Live Preview</a
+                  >
                 </div>
                 <div class="github">
                   <img src="assets/icon/github.svg" alt="" />
-                  <div><a href=""> View Code</a></div>
+                  <a
+                    href="https://www.figma.com/file/9uRzYNk2eOAWJbeBclziQ9/Filmmaking?node-id=121%3A1028&t=Vaj90olx7brxZiTh-1"
+                  >
+                    View Code</a
+                  >
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="margin-btn"></div>
-        <div class="button-project">
-          <div><a href="pages/projects.html">more projects</a></div>
+        <div class="buttons button-project">
+          <a href="pages/projects.html">more projects</a>
         </div>
       </section>
-
       <!-- -----------*** Contact Me ***----------- -->
-      <section class="contact-me" id="contact-me">
-        <div class="title-section">Contact Me</div>
-        <div class="container-dec">
+      <div id="contact-me"></div>
+      <section class="contact-me">
+        <div class="title-contact">Contact Me</div>
+        <div class="container-contact">
           <div>
-            <div class="sec-title">
+            <div class="description">
               DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR
               ALL.
             </div>
@@ -320,20 +357,27 @@
                 required
               ></textarea>
             </div>
-            <div class="button">
+            <div class="btn-contact">
               <input type="submit" value="send" />
             </div>
           </form>
         </div>
       </section>
     </main>
+
+    <!-- -----------*** footer ***----------- -->
     <footer>
-      <hr / style="border: 1px solid #eeeeee;">
+      <hr / class="hr-footer">
       <div class="foot">
         <img src="assets/logo/logo.svg" alt="" />
         <div>@2023 Basel. All right reserved</div>
       </div>
     </footer>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c4a17246a0.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="javascript/script.js"></script>
   </body>
 </html>

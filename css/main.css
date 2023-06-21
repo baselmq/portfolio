@@ -1,0 +1,56 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+@import "normalize.css";
+@import "header.css";
+@import "education.css";
+@import "home.css";
+
+:root {
+  /* Light mode colors */
+  --background-color: #ffffff;
+  --text-color: #252525;
+  /* --accent-color: #004455; */
+  --accent-color: #2f4663;
+  --light-accent-color: #587ca8;
+  --secondary-color: #868e96;
+  --icon-color: #868e96;
+  --card-color: #f7f7f7;
+  --hr-color: #eeeeee;
+  --button-color: #f6f8fa;
+  --light-icon: url("../assets/icon/sun.svg");
+
+  /* Dark mode colors */
+  --background-color-dark: #0d1117;
+  --text-color-dark: #ffffff;
+  --accent-color-dark: #395271;
+  --light-accent-color-dark: #587ca8;
+  --card-color-dark: #171d26;
+  --secondary-color-dark: #e0e0e0;
+  --icon-color-dark: #868e96;
+  --hr-color-dark: #33383f;
+  --button-color-dark: #21262d;
+  --dark-icon: url("../assets/icon/moon.svg");
+}
+
+/* Dark mode */
+body.dark-mode {
+  --background-color: var(--background-color-dark);
+  --text-color: var(--text-color-dark);
+  --accent-color: var(--accent-color-dark);
+  --secondary-color: var(--secondary-color-dark);
+  --card-color: var(--card-color-dark);
+  --button-color: var(--button-color-dark);
+  --hr-color: var(--hr-color-dark);
+  --icon-color: var(--icon-color-dark);
+  --light-icon: var(--dark-icon);
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  color: var(--text-color);
+}
+body {
+  background-color: var(--background-color);
+}

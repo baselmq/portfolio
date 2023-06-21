@@ -1,0 +1,105 @@
+/* ----------page container-education---------- */
+.education {
+  margin: 0 100px 0;
+  padding: 120px 0 0;
+}
+
+.title-education,
+.title-training {
+  /* text-align: center; */
+  font-size: 3.1rem;
+  margin-bottom: 40px;
+}
+
+.name-university,
+.path-academy {
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+}
+
+.description-university,
+.description-academy {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+.description-university div,
+.description-academy div {
+  color: var(--secondary-color);
+}
+
+.training {
+  margin-top: 80px;
+}
+
+.hr-education {
+  border: 0.5px solid var(--hr-color);
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .education {
+    margin: 0 20px 0;
+  }
+
+  .title-education,
+  .title-training {
+    /* text-align: center; */
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .name-university,
+  .path-academy {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+
+  .description-university,
+  .description-academy {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .training {
+    margin-top: 40px;
+  }
+
+  .hr-education {
+    border: 0.5px solid var(--hr-color);
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .education {
+    margin: 0 40px 0;
+  }
+  .title-education,
+  .title-training {
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+  }
+
+  .name-university,
+  .path-academy {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+
+  .description-university,
+  .description-academy {
+    font-size: 1.1rem;
+  }
+
+  .hr-education {
+    border: 0.5px solid var(--hr-color);
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .education {
+    margin: 0 70px 0;
+  }
+}

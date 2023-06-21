@@ -5,15 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="../assets/logo/logo.svg" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/projects.css" />
-    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/main.css" />
 
     <title>Education</title>
   </head>
   <body>
     <!-- -----------*** Header ***----------- -->
-
     <header>
       <nav class="navbar">
         <a href="../index.html" class="nav-branding">
@@ -32,10 +29,10 @@
           <li class="nav-item">
             <a href="education.html" class="nav-link">Education</a>
           </li>
-          <li class="nav-item flex-space">
+          <li class="nav-item">
             <a href="../index.html#contact-me" class="nav-link">Contact</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item btn-resume btn-resume-mobile">
             <a
               href="https://drive.google.com/file/d/1vkfqBmILgl1ku9fiSURak9w1Zt8jN6Ga/view?usp=sharing"
               class="nav-link"
@@ -44,65 +41,90 @@
             >
           </li>
         </ul>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+        <div class="btn-resume btn-resume-desktop">
+          <a
+            href="https://drive.google.com/file/d/1vkfqBmILgl1ku9fiSURak9w1Zt8jN6Ga/view?usp=sharing"
+            class="nav-link"
+            target="_blank"
+            >See My Resume</a
+          >
+        </div>
+        <div class="btn-resume btn-resume-middle">
+          <a
+            href="https://drive.google.com/file/d/1vkfqBmILgl1ku9fiSURak9w1Zt8jN6Ga/view?usp=sharing"
+            class="nav-link"
+            target="_blank"
+            >My Resume
+          </a>
+        </div>
+        <div class="btn-toggle-desktop"><div id="dark-mode"></div></div>
+        <div class="container-menu">
+          <div class="btn-toggle-mobile"><div id="dark-mode-mobile"></div></div>
+
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
         </div>
       </nav>
     </header>
 
     <!-- -----------*** Main ***----------- -->
     <main>
-      <section class="ed">
-        <div class="education">
-          <div class="title">Education</div>
-          <div class="sub-title">Al Al-Bayt University</div>
-          <div class="sub-title-gray">
-            <div>Bachelor's degree in Computer Information Systems</div>
-            <div>Sept 2017 - Jul 2021</div>
+      <section class="education">
+        <div class="title-education">Education</div>
+        <div class="university">
+          <div class="name-university">Al Al-Bayt University</div>
+          <div class="description-university">
+            <div class="path-university">
+              Bachelor's degree in Computer Information Systems
+            </div>
+            <div class="date">Sept 2017 - Jul 2021</div>
           </div>
-          <hr class="hr" />
+          <hr class="hr-education" />
         </div>
 
         <div class="training">
-          <div class="title">Training & Courses</div>
-          <div class="sub-title">QA Manual and Automation</div>
-          <div class="sub-title-gray">
-            <div>Princess Sumaya University</div>
-            <div>Dec 2022 - Jan 2023</div>
+          <div class="title-training">Training & Courses</div>
+          <div class="academy">
+            <div class="path-academy">QA Manual and Automation</div>
+            <div class="description-academy">
+              <div class="name-academy">Princess Sumaya University</div>
+              <div class="date">Dec 2022 - Jan 2023</div>
+            </div>
           </div>
-          <hr class="hr" />
+          <hr class="hr-education" />
         </div>
 
-        <div>
-          <div class="sub-title">Flutter App Development</div>
-          <div class="sub-title-gray">
-            <div>Orange Digital Center</div>
-            <div>Jul 2022 - Sept 2022</div>
+        <div class="academy">
+          <div class="path-academy">Flutter App Development</div>
+          <div class="description-academy">
+            <div class="name-academy">Orange Digital Center</div>
+            <div class="date">Jul 2022 - Sept 2022</div>
           </div>
-          <hr class="hr" />
+          <hr class="hr-education" />
         </div>
-        <div>
-          <div class="sub-title">Flutter App Development</div>
-          <div class="sub-title-gray">
-            <div>The hope International</div>
-            <div>Sept 2021 - Nov 2021</div>
+        <div class="academy">
+          <div class="path-academy">Flutter App Development</div>
+          <div class="description-academy">
+            <div class="name-academy">The hope International</div>
+            <div class="date">Sept 2021 - Nov 2021</div>
           </div>
-          <hr class="hr" />
+          <hr class="hr-education" />
         </div>
-        <div>
-          <div class="sub-title">Project Management Professional</div>
-          <div class="sub-title-gray">
-            <div>The hope International</div>
-            <div>Jul 2021 - Aug 2021</div>
+        <div class="academy">
+          <div class="path-academy">Project Management Professional</div>
+          <div class="description-academy">
+            <div class="name-academy">The hope International</div>
+            <div class="date">Jul 2021 - Aug 2021</div>
           </div>
         </div>
       </section>
     </main>
 
     <footer>
-      <hr / style="border: 1px solid #eeeeee;">
+      <hr / class="hr-education">
       <div class="foot">
         <img src="../assets/logo/logo.svg" alt="" />
         <div>@2023 Basel. All right reserved</div>
