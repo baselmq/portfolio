@@ -2,7 +2,9 @@ const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 const darkMode = document.getElementById("dark-mode");
 const darkModeMobile = document.getElementById("dark-mode-mobile");
+const copyrightYear = document.getElementById("copyright-year");
 const body = document.body;
+
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
@@ -43,3 +45,7 @@ window.addEventListener("load", function () {
       : body.classList.remove("dark-mode");
   }
 });
+// ----------------------*** copyright ***----------------------
+const date = new Date();
+const year = date.getFullYear();
+copyrightYear.innerText = `${year}`;
